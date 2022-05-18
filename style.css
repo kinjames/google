@@ -85,7 +85,7 @@ input[type=text]:active {
 }
 
 
-input[type=submit] {
+.submit {
     padding: 8px 10px;
     margin-right: 5px;
     border: none;
@@ -95,7 +95,7 @@ input[type=submit] {
     color: #202124;
 }
 
-input[type=submit]:hover {
+.submit:hover {
     border: 1px solid #ddd;
     background-color: #F8F9FA;
     cursor: pointer;
@@ -103,7 +103,7 @@ input[type=submit]:hover {
 
 
 .google-text {
-    font-weight: 550;
+    font-weight: 500;
     font-size: 95px;
 }
 
@@ -207,7 +207,7 @@ footer {
         text-align: center;
     }
 
-    input[type=submit] {
+    .submit {
         border: 1px solid #ddd;
     }
 
